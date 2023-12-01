@@ -9,22 +9,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     padding: 20px 30px;
     width: 100vw;
     height: 100px;
     background-color: #C5FFF8;
-    
-    
-
-
 }
 
 .logo{
     display: flex;
     justify-content: center;
-
 }
+
 .logo-text{
     font-family: 'Inter', sans-serif;
     padding-top: 1px;
@@ -33,36 +28,30 @@
     padding-bottom: 1px;
     font-weight: 900;
     font-size: 18px;
-    
-
 }
+
 .container{
     display: flex;
     justify-content: space-around;
     gap: 50px;
-    
-
 }
+
 .container-parts{
     font-size: 20px;
     font-weight: 500;
     cursor:pointer;
-    
-
 }
+
 .container-parts:hover{
     color: blue;
-
 }
 
 .login-register{
     width: 100px;
     height: 50px;
     opacity: 0.8;
-    
-
-    
 }
+
 .login-register button{
     font-size: 16px;
     font-weight: 500;
@@ -73,12 +62,8 @@
     width: 150px;
     height: 40px;
     margin-top: 6px;
-
-
-
-
-
 }
+
 .login-register:hover{
     opacity: 1;
 
