@@ -133,6 +133,7 @@
     margin: 0 auto;
     flex-direction: row;
     margin-top: 50px;
+    margin-bottom: 70px;
     
 }
 .join-section-left{
@@ -198,7 +199,7 @@
 .join-section-left-box4 img{ 
     position: relative;
     left: 48%;
-    top: 10%;
+    top: 2%;
 }
 .join-section-left-topic{
     font-size: 20px;
@@ -262,4 +263,34 @@
     color: white;
     font-weight: 400;
     cursor: pointer;
+}
+
+/* *************************Adversitement Seciton*********** */
+
+.ads{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1080px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.why-choose-us{
+    color: orange;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+.perks{
+    font-size: 50px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 10px;
+}
+.brand-name{
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
 }
