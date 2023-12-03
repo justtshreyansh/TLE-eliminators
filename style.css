@@ -77,6 +77,7 @@
     justify-content: space-between;
     width: 1080px;
     margin: 0 auto;
+    margin-bottom: 50px;
 
 
 }
@@ -122,4 +123,143 @@
     font-weight: 400;
     cursor: pointer;
 
+}
+/* ********************************Join section*********************** */
+
+.join-section{
+    display: flex;
+    justify-content: space-around;
+    width: 1080px;
+    margin: 0 auto;
+    flex-direction: row;
+    margin-top: 50px;
+    
+}
+.join-section-left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    position: relative;
+
+}
+.join-section-left-bigbox{
+    display: flex;
+    
+}
+.join-section-left-box1{
+    position: relative;
+    left: 25%; 
+    margin:10px 0px;
+}
+.join-section-left-box4{
+    position: relative;
+    left: 25%; 
+    margin:10px 0px;
+}
+.join-section-left-bigbox{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    
+}
+.join-section-left-box2{
+   margin: 0px 10px;
+
+
+}
+
+.box{
+    width: 279px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: #FFFFF0;
+    z-index: 2;
+}
+.join-section-left-box1 img{
+    position: relative;
+    left: 70%;
+    top: 0%;
+    z-index: -1;
+
+}
+.join-section-left-box2 img{
+    position: relative;
+    left: 57%;
+    top: 17%;
+    border-bottom-right-radius: 30px;
+
+}
+.join-section-left-box3 img{ 
+    position: relative;
+    left: 50%;
+    top: 12%;
+}
+.join-section-left-box4 img{ 
+    position: relative;
+    left: 48%;
+    top: 10%;
+}
+.join-section-left-topic{
+    font-size: 20px;
+    font-weight: 400;
+    color: #313131;
+    box-sizing: border-box;
+    position: relative;
+    top: 15%;
+    left: 15%;
+}
+.join-section-left-details{
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    box-sizing: border-box;
+    position: relative;
+    top: 16%;
+    left: 15%;
+
+}
+.word-wrap{
+    position: relative;
+    left: 10px;
+    
+}
+.join-section-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+
+
+}
+.join-section-right-topic{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.join-section-right-topic span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.join-section-right-details{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+.join-section-right-button{
+    background-color: #0486dd;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
 }
