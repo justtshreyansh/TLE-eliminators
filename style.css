@@ -410,3 +410,85 @@
     margin: 0 auto;
 
 }
+
+/* *****************************CARD SECTION**************************** */
+.cards-section{
+    width: 1080px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.card1{
+    
+    width: 246px;
+    height: 400px;
+    background-color: #EEE2DE;
+    border-radius: 15px;
+}
+.card-top{
+    text-align: center;
+    align-content: center;
+    padding-top: 30px;
+
+    width: 246px;
+    height:240px;
+    background-color: #ECF4D6;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    
+
+}
+.card-bottom{
+    width: 246px;
+    height: 160px;
+    background-color: #EEE2DE;
+    padding: 5px 10px;
+
+    line-height: 1.2;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 14px;
+    font-weight: 400px;
+   padding-left: 15px;
+   padding-right: 10px;
+   padding-top: 20px;
+   align-content: center;
+   text-align: left;
+
+
+
+
+
+}
+.course-price{
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.course-validity{
+    font-size: 12px;
+    margin-top: 5px;
+
+    font-weight: 400;
+}
+.start-button{
+    background-color: #0486dd;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.start-button:hover{
+    background-color: #0b4b75;
+    transition: 0.2s linear ;
+}
